@@ -11,7 +11,7 @@
         Background="Transparent"
         AllowsTransparency="True"
         >
-    <Border Background="#00FBFF"
+    <Border Background="#272537"
             CornerRadius="20">
         <Grid>
             <Grid.ColumnDefinitions>
@@ -27,26 +27,26 @@
             <TextBlock Text="Monke"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Left"
-                       Foreground="Black"
+                       Foreground="White"
                        FontSize="22"
                        Margin="20,0,0,0"/>
 
             <StackPanel Grid.Row="1">
                 <RadioButton Content="Home"
                              Height="50"
-                             Foreground="Black"
+                             Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"/>
 
                 <RadioButton Content="Discovery"
                              Height="50"
-                             Foreground="Black"
+                             Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"/>
 
                 <RadioButton Content="Featured"
                              Height="50"
-                             Foreground="Black"
+                             Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"/>
             </StackPanel>
@@ -56,7 +56,8 @@
                      VerticalContentAlignment="Center"
                      HorizontalAlignment="Left"
                      Margin="5"
-                     Grid.Column="1"/>
+                     Grid.Column="1"
+                     Style="{StaticResource ModernTextBox}"/>
 
         </Grid>
         
